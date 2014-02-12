@@ -38,7 +38,7 @@ function addProjectCallback(result){
 	
 	var finalHtml = "";
 
-	finalHtml += "<img class='detailImage' src='" + result.image + "' />";
+	finalHtml += "<img class='detailsImage' src='" + result.image + "' />";
 	finalHtml += "<h3 class='detailHeader'>" + result.title + "</h3>";
 	finalHtml += "<h6 class='detailDate'>" + result.date + "</h6>";
 	finalHtml += result.summary;
